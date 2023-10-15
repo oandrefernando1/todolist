@@ -62,3 +62,20 @@ obs: Utilizar o basic auth para logar no usuario que foi cadastrado anteriorment
 | `priority`      | `string` | **Optativo**. |
 
 obs: Utilizar o basic auth para logar no usuario que foi cadastrado anteriormente.
+
+
+## Instrução
+
+### Pré configuração.
+>Para executar esse projeto será necessário ter o JDK17 e o maven instalado e configurado de acordo com seu sistema operacional.
+
+Agora você deve executar o seguinte comando no seu terminal:
+```bash
+# instalação dos pacotes
+$ mvn clean install
+
+# Execução do servidor
+$ mvn spring-boot:run
+```
+
+Agora você poderá testar com a utilização de uma ferramenta como por exemplo: [apidog](https://apidog.com/) ou [insomnia](https://insomnia.rest/)
